@@ -18,10 +18,10 @@ const About = () => {
       </div>
       <div className="aboutTextContainer">
         <p>
-          I am a passionate web developer always looking to learn new things. I
-          love constantly improving my skills and knowledge whether that be from
-          improving my design skills or learning tech. Most recently I learned
-          how to use gatsby and how to better use CSS grid.{" "}
+          My name is Logan Watson and I'm a full stack developer who specializes
+          in creating beautiful websites. I am a blogger, developer, problem
+          solver, and critical thinker. Check out some of the new things I've
+          been learning below!
         </p>
       </div>
     </section>
