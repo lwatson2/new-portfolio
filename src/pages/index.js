@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import LandingPage from "../components/landingPage/LandingPage"
 import Project from "../components/projects/Project"
 import About from "../components/about/About"
+import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>

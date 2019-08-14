@@ -24,7 +24,7 @@ const LandingPage = () => (
       return (
         <BackgroundImage
           Tag="section"
-          className={"landingPageWrapper"}
+          className="landingPageWrapper"
           fluid={imageData}
         >
           <div className="landingPageContent">

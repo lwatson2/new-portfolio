@@ -3,18 +3,22 @@ import React, { useEffect, useState, useRef } from "react"
 const useOnScreen = ref => {
   const [isIntersecting, setIntersecting] = useState(false)
 
-  const options = {}
+  const options = {
+    root: null,
+    rootMargin: "-75px",
+  }
+
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       // Update our state when observer callback fires
 
       setIntersecting(entry.isIntersecting)
-    })
+    }, options)
 
     if (ref.current) {
       observer.observe(ref.current)
+      console.log("object")
     }
-    console.log(true)
     return () => {
       observer.unobserve(ref.current)
     }
