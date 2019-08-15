@@ -5,7 +5,7 @@ import "./About.css"
 
 const About = () => {
   const ref = useRef()
-  const onScreen = useOnScreen(ref, { rootMargin: "-75px" })
+  const onScreen = useOnScreen(ref, { rootMargin: "-76px" })
   return (
     <section
       ref={ref}
