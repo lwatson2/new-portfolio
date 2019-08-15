@@ -8,7 +8,9 @@ import "./Project.css"
 
 const Project = () => {
   const ref = useRef()
-  const onScreen = useOnScreen(ref, { threshold: 0.7 })
+  const onScreen = useOnScreen(ref, {
+    threshold: 0,
+  })
   return (
     <section
       ref={ref}
@@ -40,12 +42,21 @@ const Project = () => {
               Buddy finder is a site where users can find find and join groups
               to play video games with. Built with React and Node.
             </span>
-            <button className="card-btn">View site</button>
+            <button className="card-btn">
+              <a
+                className="projectLink"
+                href="https://buddyfindersite.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Site
+              </a>
+            </button>
           </div>
         </div>
       </div>
       <div className="card">
-        <img src={ReactChat} alt="Buddy Finder project" />
+        <img src={ReactChat} alt="React chat project image" />
         <div className="card-content">
           <svg className="card-svg" viewBox="0 0 800 500">
             <path
@@ -67,7 +78,17 @@ const Project = () => {
               ReactChat is a chat application where users can join various rooms
               similiar to "Discord". Built with React and Node.
             </span>
-            <button className="card-btn">View site</button>
+            <button className="card-btn">
+              {" "}
+              <a
+                className="projectLink"
+                href="https://floating-woodland-27702.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Site
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -94,7 +115,16 @@ const Project = () => {
               Image gallery is a site built for a family member to display their
               photography. Built with React and Node.
             </span>
-            <button className="card-btn">View site</button>
+            <button className="card-btn">
+              <a
+                className="projectLink"
+                href="http://www.danielleleephotography.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Site
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -121,7 +151,16 @@ const Project = () => {
               React pokedex is a site where users can view details of various
               pokemon. Built with React.
             </span>
-            <button className="card-btn">View site</button>
+            <button className="card-btn">
+              <a
+                className="projectLink"
+                href="https://lwatson2.github.io/react-pokedex/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Site
+              </a>
+            </button>
           </div>
         </div>
       </div>

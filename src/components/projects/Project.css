@@ -6,11 +6,9 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
   justify-items: center;
-  height: 100vh;
 }
 
 .card {
@@ -74,7 +72,12 @@
 }
 .card-btn {
   width: 144px;
-  margin-bottom: 11px;
+  margin-bottom: 16px;
+  background: hsl(360, 67%, 44%);
+  border: none;
+  color: hsl(40, 23%, 97%);
+  cursor: pointer;
+  padding: 6px;
 }
 
 @media only screen and (min-width: 700px) {
