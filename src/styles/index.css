@@ -5,3 +5,45 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+.fadeIn {
+  -webkit-animation: fade-in 3s ease-in 0s;
+  animation: fade-in 1s ease-in 0s;
+}
+.fadeOut {
+  -webkit-animation: fade-out 1s ease-in 0s;
+  animation: fade-out 1s ease-in 0s;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

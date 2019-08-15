@@ -15,6 +15,7 @@ const IndexPage = () => (
     <LandingPage />
     <About />
     <Project />
+    <div style={{ height: "100vh" }}></div>
   </Layout>
 )
 
