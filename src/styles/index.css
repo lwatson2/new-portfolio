@@ -9,6 +9,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+li {
+  margin-bottom: 0;
+}
 .fadeIn {
   -webkit-animation: fade-in 3s ease-in 0s;
   animation: fade-in 1s ease-in 0s;

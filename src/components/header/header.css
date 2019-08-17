@@ -1,9 +1,11 @@
 .nav {
-  height: 66px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
+  background: -webkit-gradient(linear, left top, right top, from(#a73737), to(#7a2828));
+  background: linear-gradient(90deg, #a73737, #7a2828);
   width: 100%;
 }
 .nav-text-container {
@@ -12,7 +14,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: hsl(360, 47%, 47%);
   color: hsl(40, 23%, 97%);
 }
 .header-title {
@@ -48,7 +49,7 @@
   fill: none;
   -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke: blue;
+  stroke: hsl(40, 13%, 90%);
   stroke-width: 5.5;
   stroke-linecap: round;
 }
@@ -66,14 +67,69 @@
   stroke-dashoffset: -138px;
 }
 .main-nav {
-  -webkit-transform: translateX(500px);
-  transform: translateX(500px);
+  -webkit-transform: translateX(1000px);
+  transform: translateX(1000px);
   -webkit-transition: all 500ms;
   transition: all 500ms;
   height: 100vh;
-  background: blue;
+  background: hsl(40, 23%, 97%);
+  color: hsl(42, 15%, 13%);
+  padding-top: 20px;
 }
 .show-main-nav {
   -webkit-transform: translateX(0);
   transform: translateX(0);
+}
+.main-nav-btn-container {
+  list-style-type: none;
+  display: grid;
+  grid-gap: 20px;
+  margin: 0px 0px 0px 20px;
+}
+.nav-link-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.nav-link-btn::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: hsl(360, 64%, 55%);
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.nav-link-btn:hover::after {
+  width: 100%;
+}
+@media only screen and (min-width: 700px) {
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .main-nav {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    height: auto;
+    margin-right: 20px;
+    background: transparent;
+    padding: 0;
+  }
+  .main-nav-btn-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .nav-link-btn {
+    color: hsl(40, 23%, 97%);
+  }
+  .nav-link-btn::after {
+    background: hsl(40, 23%, 97%);
+  }
 }
