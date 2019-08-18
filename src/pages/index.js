@@ -8,6 +8,7 @@ import LandingPage from "../components/landingPage/LandingPage"
 import Project from "../components/projects/Project"
 import About from "../components/about/About"
 import "../styles/index.css"
+import Contact from "../components/contact/Contact"
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +16,7 @@ const IndexPage = () => (
     <LandingPage />
     <About />
     <Project />
-    <div style={{ height: "100vh" }}></div>
+    <Contact />
   </Layout>
 )
 
