@@ -13,6 +13,7 @@ const Project = () => {
   })
   return (
     <section
+      id="project"
       ref={ref}
       style={{ opacity: onScreen ? 1 : 0 }}
       className={

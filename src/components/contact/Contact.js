@@ -9,6 +9,7 @@ const Contact = () => {
   })
   return (
     <section
+      id="contact"
       ref={ref}
       style={{ opacity: onScreen ? 1 : 0 }}
       className={
@@ -26,11 +27,17 @@ const Contact = () => {
         </a>{" "}
         or email me!
       </p>
+
       <form
+        name="contact"
         className="contact-form-container"
-        action="https://formspree.io/logana.watson1.gmail.com.tld"
         method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
+        {" "}
+        <input type="hidden" name="bot-field" />{" "}
+        <input type="hidden" name="form-name" value="contact" />
         <label htmlFor="name">Name</label>
         <input className="contact-input" type="text" name="name" />
         <label htmlFor="email">Email</label>
@@ -43,7 +50,6 @@ const Contact = () => {
           cols="30"
           rows="5"
         ></textarea>
-        <input type="text" name="_gotcha" style={{ display: "none" }} />
         <button type="submit" className="contact-form-btn">
           Send
         </button>

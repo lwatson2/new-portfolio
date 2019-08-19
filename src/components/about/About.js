@@ -11,6 +11,7 @@ const About = () => {
   })
   return (
     <section
+      id="about"
       ref={ref}
       style={{ opacity: onScreen ? 1 : 0 }}
       className={onScreen ? "aboutContainer  fadeIn" : "aboutContainer fadeOut"}

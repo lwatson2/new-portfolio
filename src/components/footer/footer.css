@@ -1,0 +1,26 @@
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7a2828), to(#a73737));
+  background: linear-gradient(180deg, #7a2828, #a73737);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  margin-top: 100px;
+}
+.footer-link {
+  margin: 0 10px;
+}
+.footer-link:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  fill: hsl(40, 23%, 97%);
+}

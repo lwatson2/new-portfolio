@@ -22,6 +22,14 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/,
+        },
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -34,13 +34,34 @@ const Header = ({ siteTitle }) => {
         <div className={showNav ? "main-nav show-main-nav" : "main-nav"}>
           <ul className="main-nav-btn-container">
             <li>
-              <button className="nav-link-btn">About</button>
+              <Link to="#about">
+                <button
+                  className="nav-link-btn"
+                  onClick={() => setShowNav(false)}
+                >
+                  About
+                </button>
+              </Link>
             </li>
             <li>
-              <button className="nav-link-btn">Projects</button>
+              <Link to="#project">
+                <button
+                  className="nav-link-btn"
+                  onClick={() => setShowNav(false)}
+                >
+                  Projects
+                </button>
+              </Link>
             </li>
             <li>
-              <button className="nav-link-btn">Contact</button>
+              <Link to="#contact">
+                <button
+                  className="nav-link-btn"
+                  onClick={() => setShowNav(false)}
+                >
+                  Contact
+                </button>
+              </Link>
             </li>
           </ul>
         </div>

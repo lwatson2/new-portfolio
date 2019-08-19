@@ -1,6 +1,6 @@
 import React from "react"
 import "./landingPage.css"
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 
 const LandingPage = () => (
@@ -31,9 +31,15 @@ const LandingPage = () => (
             <h2 className="landingPageName">Logan Watson</h2>
             <hr className="line" />
             <div className="landingPageBtnWrapper">
-              <button className="landingPageBtn">About</button>
-              <button className="landingPageBtn">Projects</button>
-              <button className="landingPageBtn">Contact</button>
+              <Link to="#about">
+                <button className="landingPageBtn">About</button>
+              </Link>
+              <Link to="#project">
+                <button className="landingPageBtn">Projects</button>
+              </Link>
+              <Link to="#contact">
+                <button className="landingPageBtn">Contact</button>
+              </Link>
             </div>
           </div>
         </BackgroundImage>
