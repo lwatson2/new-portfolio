@@ -18,13 +18,13 @@ const Contact = () => {
     >
       <p className="contact-text">
         You've made it the end, but it doesn't have to be! Feel free to contact
-        me on{" "}
+        me on
         <a
           href="https://linkedin.com/in/loganawatson"
           className="linkedin-link"
         >
           LinkedIn
-        </a>{" "}
+        </a>
         or email me!
       </p>
 
@@ -35,8 +35,7 @@ const Contact = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        {" "}
-        <input type="hidden" name="bot-field" />{" "}
+        <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
         <label htmlFor="name">Name</label>
         <input className="contact-input" type="text" name="name" />
