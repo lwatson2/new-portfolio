@@ -8,10 +8,10 @@ const LandingPage = () => (
     query={graphql`
       query {
         desktop: file(
-          relativePath: { eq: "morgan-harper-nichols-OMXPrCAhxrE-unsplash.jpg" }
+          relativePath: { eq: "joshua-aragon-FGXqbqbGt5o-unsplash.jpg" }
         ) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 4160) {
+            fluid(quality: 100, maxWidth: 4160) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -26,6 +26,11 @@ const LandingPage = () => (
           Tag="section"
           className="landingPageWrapper"
           fluid={imageData}
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <div className="landingPageContent">
             <h2 className="landingPageName">Logan Watson</h2>

@@ -3,11 +3,9 @@
   box-sizing: border-box;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  height: 100vh;
-  background-size: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
+  height: 100vh;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -15,11 +13,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 .landingPageContent {
   width: 357px;
@@ -44,31 +37,7 @@
   -ms-flex-item-align: center;
   align-self: center;
 }
-.landingPageBtnWrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-evenly;
-}
-.landingPageBtn {
-  background: hsl(360, 67%, 44%);
-  color: hsl(40, 23%, 97%);
-  border: none;
-  padding: 12px;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease 0s;
-  transition: all 0.2s ease 0s;
-}
-.landingPageBtn:hover {
-  background: hsl(360, 79%, 32%);
-  color: hsl(40, 23%, 97%);
-  letter-spacing: 1px;
-}
+
 @media only screen and (min-width: 450px) {
   .landingPageContent {
     width: 400px;
@@ -80,10 +49,5 @@
   }
   .line {
     width: 50%;
-  }
-  .landingPageBtnWrapper {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-around;
   }
 }

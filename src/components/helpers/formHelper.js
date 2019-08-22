@@ -18,6 +18,7 @@ const useForm = (callback, validate) => {
     setIsSubmitting(true)
     setErrors(validate(values))
     setTarget(event.target)
+    console.log(errors)
   }
 
   const handleChange = event => {

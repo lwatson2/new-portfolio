@@ -10,12 +10,11 @@ const validate = values => {
     errors.email = "Please enter your email"
   } else if (!/\S+@\S+\.\S+/.test(values.email)) {
     errors.email = "Email address is invalid"
-  }
-  if (values.email.length > 100) {
+  } else if (values.email.length > 100) {
     errors.email = "Email cannot be greater than 100 characters."
   }
   if (!values.message) {
-    errors.message = "Message is required"
+    errors.message = "Please enter a message"
   }
   return errors
 }
