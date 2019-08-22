@@ -1,5 +1,5 @@
 import React, { useRef } from "react"
-import useOnScreen from "../useOnScreen"
+import useOnScreen from "../helpers/useOnScreen"
 import aboutImage from "../../images/undraw_programming_2svr.svg"
 import "./About.css"
 

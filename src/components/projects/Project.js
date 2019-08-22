@@ -1,5 +1,5 @@
 import React, { useRef } from "react"
-import useOnScreen from "../useOnScreen"
+import useOnScreen from "../helpers/useOnScreen"
 import BuddyFinder from "../../images/buddyfinder_2_400x600.png"
 import ReactChat from "../../images/React-chat_350x525.png"
 import ReactPokedex from "../../images/React-Pokedex_350x525.png"
@@ -111,7 +111,7 @@ const Project = () => {
             />
           </svg>
           <div className="card-text">
-            <h2 className="card-title">Imgae Gallery</h2>
+            <h2 className="card-title">Image Gallery</h2>
             <span className="card-desc">
               Image gallery is a site built for a family member to display their
               photography. Built with React and Node.
