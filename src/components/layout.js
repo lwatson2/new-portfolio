@@ -6,7 +6,10 @@ import "./layout.css"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]')
+  require("smooth-scroll")('a[href*="#"]', {
+    offset: 70,
+    speed: 500,
+  })
 }
 
 const Layout = ({ children }) => {
