@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
       <nav className="nav">
         <div className="nav-text-container">
           <h2 className="header-title">
-            <a href="loganwatson.io" target="_blank" rel="noopener noreferrer">
+            <a href="/" target="_blank" rel="noopener noreferrer">
               Logan Watson
             </a>{" "}
           </h2>
