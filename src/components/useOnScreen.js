@@ -11,7 +11,6 @@ const useOnScreen = (ref, options) => {
 
     if (ref.current) {
       observer.observe(ref.current)
-      console.log("object")
     }
     return () => {
       observer.unobserve(ref.current)
