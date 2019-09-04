@@ -4,8 +4,7 @@
   top: 0;
   left: 0;
   z-index: 2;
-  background: -webkit-gradient(linear, left top, right top, from(#a73737), to(#7a2828));
-  background: linear-gradient(90deg, #a73737, #7a2828);
+  background: hsl(208, 40%, 18%);
   width: 100%;
 }
 .nav-text-container {
@@ -97,7 +96,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background: hsl(360, 64%, 55%);
+  background: #b2abf2;
   -webkit-transition: width 0.3s;
   transition: width 0.3s;
 }

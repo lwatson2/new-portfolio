@@ -22,10 +22,11 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
+  border-radius: 10px;
   flex-direction: column;
   background: hsl(210, 45%, 33%);
   -webkit-box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.5);
-          box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.5);
+  box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.5);
 }
 .landingPageName {
   -ms-flex-item-align: center;
@@ -38,7 +39,7 @@
 }
 .line {
   height: 1px;
-  background: hsl(360, 64%, 55%);
+  background: #51D0DE;
   width: 50%;
   -ms-flex-item-align: center;
   align-self: center;
