@@ -15,9 +15,8 @@
   margin: 0 auto;
   color: hsl(40, 23%, 97%);
   border-radius: 10px;
-  -webkit-box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2),
-    0 0 1rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.5);
+          box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.5);
 }
 .contact-text {
   color: hsl(3, 100%, 65%);

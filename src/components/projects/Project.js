@@ -2,7 +2,7 @@ import React, { useRef } from "react"
 import useOnScreen from "../helpers/useOnScreen"
 import BuddyFinder from "../../images/buddyfinder_2_400x600.png"
 import ReactChat from "../../images/React-chat_350x525.png"
-import ReactPokedex from "../../images/React-Pokedex_350x525.png"
+import ReactPokedex from "../../images/pokedex_400x600.png"
 import ImageGallery from "../../images/Simple-image-gallery_350x525.png"
 import "./Project.css"
 

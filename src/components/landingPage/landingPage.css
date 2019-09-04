@@ -23,12 +23,18 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  background: hsl(210, 45%, 33%);
+  -webkit-box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.5);
+          box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.5);
 }
 .landingPageName {
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: 700;
   color: hsl(40, 23%, 97%);
+  padding-top: 14px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 .line {
   height: 1px;
@@ -45,9 +51,9 @@
 }
 @media only screen and (min-width: 700px) {
   .landingPageContent {
-    width: 600px;
+    width: 400px;
   }
   .line {
-    width: 50%;
+    width: 60%;
   }
 }
