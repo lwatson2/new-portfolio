@@ -29,13 +29,13 @@
 }
 .card:hover .card-content {
   opacity: 1;
-  -webkit-transform: translateY(-435px);
-  transform: translateY(-435px);
+  -webkit-transform: translateY(-450px);
+  transform: translateY(-450px);
 }
 .card-content:hover {
   opacity: 1;
-  -webkit-transform: translateY(-435px);
-  transform: translateY(-435px);
+  -webkit-transform: translateY(-450px);
+  transform: translateY(-450px);
 }
 
 .card-text {
@@ -89,17 +89,4 @@
 .card-btn:hover {
   color: hsl(208, 40%, 18%);
   background: hsl(40, 23%, 97%);
-}
-
-@media only screen and (min-width: 700px) {
-  .card:hover .card-content {
-    opacity: 1;
-    -webkit-transform: translateY(-455px);
-    transform: translateY(-455px);
-  }
-  .card-content:hover {
-    opacity: 1;
-    -webkit-transform: translateY(-455px);
-    transform: translateY(-455px);
-  }
 }
