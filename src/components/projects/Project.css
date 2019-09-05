@@ -29,13 +29,13 @@
 }
 .card:hover .card-content {
   opacity: 1;
-  -webkit-transform: translateY(-450px);
-  transform: translateY(-450px);
+  -webkit-transform: translateY(-445px);
+  transform: translateY(-445px);
 }
 .card-content:hover {
   opacity: 1;
-  -webkit-transform: translateY(-450px);
-  transform: translateY(-450px);
+  -webkit-transform: translateY(-445px);
+  transform: translateY(-445px);
 }
 
 .card-text {
