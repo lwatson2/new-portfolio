@@ -15,7 +15,7 @@
   align-items: center;
 }
 .landingPageContent {
-  width: 357px;
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +39,7 @@
 }
 .line {
   height: 1px;
-  background: #51D0DE;
+  background: #51d0de;
   width: 50%;
   -ms-flex-item-align: center;
   align-self: center;
