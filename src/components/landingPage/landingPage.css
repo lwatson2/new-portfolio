@@ -15,7 +15,7 @@
   align-items: center;
 }
 .landingPageContent {
-  width: 300px;
+  max-width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,9 +33,10 @@
   align-self: center;
   font-weight: 700;
   color: hsl(40, 23%, 97%);
-  padding-top: 14px;
+  padding: 16px;
   margin: 0;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 .line {
   height: 1px;
@@ -45,16 +46,11 @@
   align-self: center;
 }
 
-@media only screen and (min-width: 450px) {
-  .landingPageContent {
-    width: 400px;
-  }
-}
 @media only screen and (min-width: 700px) {
-  .landingPageContent {
-    width: 400px;
-  }
   .line {
     width: 60%;
+  }
+  .landingPageName {
+    font-size: 30px;
   }
 }

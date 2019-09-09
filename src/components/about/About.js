@@ -16,15 +16,21 @@ const About = () => {
       style={{ opacity: onScreen ? 1 : 0 }}
       className={onScreen ? "aboutContainer  fadeIn" : "aboutContainer fadeOut"}
     >
+      <h3 className="about-me-header">About Logan</h3>
       <div className="imageContainer">
         <img src={aboutImage} alt="women at computer" />
       </div>
       <div className="aboutTextContainer">
         <p>
-          My name is Logan Watson and I'm a full stack developer who specializes
-          in creating beautiful websites. I am a blogger, developer, problem
-          solver, and critical thinker. Check out some of the new things I've
-          been learning below!
+          I first began my journey to become a developer after a friend saw me
+          creating animations for my homescreen and recomended me to try out
+          HTML and CSS. I set out to learn about front end development
+          originally from FreeCodeCamp but later moved on to TheOdinProject
+          where I learned all about the front end fundamentals. From there I
+          learned React from Tyler McGinnis who is a amazing teacher and
+          continues to be one of my favorite people to follow. I then continued
+          to learn the mern stack from online and here we are today. I don't
+          know what tomorrow holds but I know I am excited for it.
         </p>
       </div>
     </section>

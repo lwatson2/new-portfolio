@@ -41,7 +41,9 @@ const Project = () => {
             <h2 className="card-title">BuddyFinder</h2>
             <span className="card-desc">
               Buddy finder is a site where users can find find and join groups
-              to play video games with. Built with React and Node.
+              to play video games with. BuddyFinder is my favorite project so
+              far as I hated the struggle of trying to find people to play with
+              so I hoped BuddyFinder would help that.
             </span>
             <button className="card-btn">
               <a
@@ -77,7 +79,9 @@ const Project = () => {
             <h2 className="card-title">React Chat</h2>
             <span className="card-desc">
               ReactChat is a chat application where users can join various rooms
-              similiar to "Discord". Built with React and Node.
+              similiar to "Discord". I always wondered how chat applications
+              worked and thought they were seriously cool so I learned more
+              about web sockets by developing React Chat
             </span>
             <button className="card-btn">
               {" "}
@@ -114,7 +118,9 @@ const Project = () => {
             <h2 className="card-title">Image Gallery</h2>
             <span className="card-desc">
               Image gallery is a site built for a family member to display their
-              photography. Built with React and Node.
+              photography. I took on building this site as a way to challenge
+              myself in my first exploration into full stack development with
+              the MERN stack.
             </span>
             <button className="card-btn">
               <a
@@ -150,7 +156,8 @@ const Project = () => {
             <h2 className="card-title">React Pokedex</h2>
             <span className="card-desc">
               React pokedex is a site where users can view details of various
-              pokemon. Built with React.
+              pokemon. I created React pokedex as a way to better expose myself
+              to rest apis and because I loved pokemon growing up.
             </span>
             <button className="card-btn">
               <a
