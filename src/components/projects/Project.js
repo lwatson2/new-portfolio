@@ -40,10 +40,10 @@ const Project = () => {
           <div className="card-text">
             <h2 className="card-title">BuddyFinder</h2>
             <span className="card-desc">
-              Buddy finder is a site where users can find find and join groups
-              to play video games with. BuddyFinder is my favorite project so
-              far as I hated the struggle of trying to find people to play with
-              so I hoped BuddyFinder would help that.
+              BuddyFinder is a site where users can find find and join groups to
+              play video games with. BuddyFinder is my favorite project so far
+              as I hated the struggle of trying to find people to play with so I
+              built BuddyFinder to help with that.
             </span>
             <button className="card-btn">
               <a
@@ -81,7 +81,7 @@ const Project = () => {
               ReactChat is a chat application where users can join various rooms
               similiar to "Discord". I always wondered how chat applications
               worked and thought they were seriously cool so I learned more
-              about web sockets by developing React Chat
+              about web sockets by developing React Chat.
             </span>
             <button className="card-btn">
               {" "}
