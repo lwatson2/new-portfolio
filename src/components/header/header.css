@@ -1,9 +1,11 @@
+.header-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
 .nav {
   height: 69px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
   background: hsl(208, 40%, 18%);
   width: 100%;
 }

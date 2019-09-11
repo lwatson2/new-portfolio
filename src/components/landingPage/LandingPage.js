@@ -33,7 +33,8 @@ const LandingPage = () => (
           }}
         >
           <div className="landingPageContent">
-            <h2 className="landingPageName">Full Stack Javascript Developer</h2>
+            <h2 className="landingPageName">Logan Watson</h2>
+            <h2>Full Stack Javascript Developer</h2>
             <hr className="line" />
           </div>
         </BackgroundImage>

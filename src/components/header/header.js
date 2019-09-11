@@ -5,7 +5,7 @@ import "./header.css"
 const Header = ({ siteTitle }) => {
   const [showNav, setShowNav] = useState(false)
   return (
-    <header>
+    <header className="header-container">
       <nav className="nav">
         <div className="nav-text-container">
           <h2 className="header-title">
