@@ -84,7 +84,7 @@ const Contact = props => {
         <label htmlFor="email">Email</label>
         <input
           className="contact-input"
-          type="text"
+          type="email"
           id="email"
           onChange={handleChange}
           name="email"
