@@ -4,6 +4,7 @@ import BuddyFinder from "../../images/buddyfinder_2_400x600.png"
 import ReactChat from "../../images/React-chat_350x525.png"
 import ReactPokedex from "../../images/pokedex_400x600.png"
 import ImageGallery from "../../images/Simple-image-gallery_350x525.png"
+import GuardiansMeet from "../../images/guardiansmeet_1_400x600.png"
 import "./Project.css"
 
 const Project = () => {
@@ -20,6 +21,43 @@ const Project = () => {
         onScreen ? "project-container  fadeIn" : "project-container fadeOut"
       }
     >
+      <div className="card">
+        <img src={GuardiansMeet} alt="Guardians Meet project" />
+        <div className="card-content">
+          <svg className="card-svg" viewBox="0 0 800 500">
+            <path
+              d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+              stroke="transparent"
+              fill="#51D0DE"
+            />
+            <path
+              className="card-line"
+              d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+              stroke="#1C3041"
+              stroke-width="3"
+              fill="transparent"
+            />
+          </svg>
+          <div className="card-text">
+            <h2 className="card-title">Guardians Meet</h2>
+            <span className="card-desc">
+              GuardiansMeet is a destiny themed dating website. I had the idea
+              to build it from seeing a post on dev.to about ways to level up as
+              a developer. Built with React, Node, and Socket.io.
+            </span>
+            <button className="card-btn">
+              <a
+                className="projectLink"
+                href="https://guardiansmeetsite.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Site
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="card">
         <img src={BuddyFinder} alt="Buddy Finder project" />
         <div className="card-content">
