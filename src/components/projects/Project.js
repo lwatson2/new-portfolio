@@ -200,7 +200,7 @@ const Project = () => {
             <button className="card-btn">
               <a
                 className="projectLink"
-                href="https://lwatson2.github.io/react-pokedex/"
+                href="https://react-pokedexx.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
