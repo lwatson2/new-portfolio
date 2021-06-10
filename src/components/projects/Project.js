@@ -22,6 +22,43 @@ const Project = () => {
       }
     >
       <div className="card">
+        <img src={ReactPokedex} alt="React pokedex" />
+        <div className="card-content">
+          <svg className="card-svg" viewBox="0 0 800 500">
+            <path
+              d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+              stroke="transparent"
+              fill="#51D0DE"
+            />
+            <path
+              className="card-line"
+              d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+              stroke="#1C3041"
+              stroke-width="3"
+              fill="transparent"
+            />
+          </svg>
+          <div className="card-text">
+            <h2 className="card-title">React Pokedex</h2>
+            <span className="card-desc">
+              React pokedex is a site where users can view details of various
+              pokemon. I created React pokedex as a way to better expose myself
+              to rest apis and because I loved pokemon growing up.
+            </span>
+            <button className="card-btn">
+              <a
+                className="projectLink"
+                href="https://react-pokedexx.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Site
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="card">
         <img src={GuardiansMeet} alt="Guardians Meet project" />
         <div className="card-content">
           <svg className="card-svg" viewBox="0 0 800 500">
@@ -96,7 +133,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="card">
+      {/* <div className="card">
         <img src={ReactChat} alt="React chat project image" />
         <div className="card-content">
           <svg className="card-svg" viewBox="0 0 800 500">
@@ -134,8 +171,8 @@ const Project = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="card">
+      </div> */}
+      {/* <div className="card">
         <img src={ImageGallery} alt="Image Gallery project picture" />
         <div className="card-content">
           <svg className="card-svg" viewBox="0 0 800 500">
@@ -172,44 +209,7 @@ const Project = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="card">
-        <img src={ReactPokedex} alt="Buddy Finder project" />
-        <div className="card-content">
-          <svg className="card-svg" viewBox="0 0 800 500">
-            <path
-              d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
-              stroke="transparent"
-              fill="#51D0DE"
-            />
-            <path
-              className="card-line"
-              d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
-              stroke="#1C3041"
-              stroke-width="3"
-              fill="transparent"
-            />
-          </svg>
-          <div className="card-text">
-            <h2 className="card-title">React Pokedex</h2>
-            <span className="card-desc">
-              React pokedex is a site where users can view details of various
-              pokemon. I created React pokedex as a way to better expose myself
-              to rest apis and because I loved pokemon growing up.
-            </span>
-            <button className="card-btn">
-              <a
-                className="projectLink"
-                href="https://react-pokedexx.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Site
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
+      </div> */}
     </section>
   )
 }
